@@ -91,6 +91,7 @@ git clone https://github.com/YehyaTrad/CodeAlpha_Unemployment_Analysis.git
 ```
 cd CodeAlpha_Unemployment_Analysis
 
+```
 ### 3️⃣ Install Dependencies
 ```
 pip install -r requirements.txt
