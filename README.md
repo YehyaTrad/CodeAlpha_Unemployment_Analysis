@@ -42,17 +42,12 @@ It analyzes global unemployment rates from 1991 to 2021 using Python, Pandas, an
 - Visualizations provide clear insights into trends, useful for economic or social policy analysis.  
 
 ## Folder Structure
-📁 CodeAlpha_Unemployment_Analysis/
+📁 CodeAlpha_Unemployment_Analysis
+├── data |--unemployment.csv
+├── notebooks | unemployment_analysis.ipynb
 │
-├── data|__ unemployment.csv
-│
-├── notebooks/
-│ └── unemployment_analysis.ipynb
-│
-├── results/
-│ ├── lebanon_unemployment_trend.png
-│ └── lebanon_covid_impact.png
-│
+├── results|-- lebanon_unemployment_trend.png
+│           ── lebanon_covid_impact.png
 ├── README.md
 └── requirements.txt
 
