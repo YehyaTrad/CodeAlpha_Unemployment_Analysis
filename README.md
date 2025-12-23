@@ -87,8 +87,8 @@ It focuses on analyzing global unemployment rates from **1991 to 2021**, with a 
 ```bash
 git clone https://github.com/YehyaTrad/CodeAlpha_Unemployment_Analysis.git
 
-### 2️⃣ Navigate to Project Directory
-```bash
+ 2️⃣ Navigate to Project Directory
+
 cd CodeAlpha_Unemployment_Analysis
 ### 3️⃣ Install Dependencies
 ```bash
