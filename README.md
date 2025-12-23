@@ -1,45 +1,66 @@
-# Unemployment Analysis (1991–2021) – CodeAlpha Internship Task 2
+# 📊 Unemployment Analysis (1991–2021)
+### 🎓 CodeAlpha Data Science Internship — Task 2
 
-## Overview
-This project is part of the **CodeAlpha Data Science Internship (Task 2)**.  
-It analyzes global unemployment rates from 1991 to 2021 using Python, Pandas, and Seaborn, with a focus on Lebanon. The analysis highlights long-term trends and the impact of COVID-19 on unemployment rates.
+---
 
-## Dataset
-- **Source:** `unemployment.csv`  
-- **Description:** Country-wise unemployment rates over the years 1991–2021.  
-- **Columns:**
-  - `Country Name` – Name of the country  
-  - `Country Code` – ISO country code  
-  - `1991` to `2021` – Unemployment rate per year  
-- **Preprocessing:** The dataset was reshaped from **wide to long format** using Pandas `melt()` for effective time-series analysis.
+## 📌 Overview
+This project is part of the **CodeAlpha Data Science Internship**.  
+It focuses on analyzing global unemployment rates from **1991 to 2021**, with a detailed case study on **Lebanon**, highlighting long-term trends and the **impact of COVID-19** on unemployment.
 
-## Tools & Libraries
-- **Programming Language:** Python 3.x  
-- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn  
+---
 
-## Steps Performed
-1. **Data Loading & Inspection**  
-   - Loaded `unemployment.csv` into a Pandas DataFrame.  
-   - Checked for missing values and data types.  
+## 📁 Dataset Information
+- **File Name:** `unemployment.csv`
+- **Type:** Country-wise unemployment rate dataset
+- **Time Period:** 1991 – 2021
 
-2. **Data Transformation**  
-   - Reshaped data from wide to long format (`Year` and `Unemployment_Rate` columns).  
-   - Converted `Year` column to numeric.  
+### 🧾 Columns Description
+| Column Name | Description |
+|------------|-------------|
+| Country Name | Name of the country |
+| Country Code | ISO country code |
+| 1991 – 2021 | Unemployment rate (%) per year |
 
-3. **Exploratory Data Analysis (EDA)**  
-   - Plotted unemployment trends for Lebanon (1991–2021).  
-   - Analyzed the impact of COVID-19 (2019–2021).  
-   - Identified patterns and fluctuations in unemployment rates.  
+🔄 The dataset was converted from **wide format** to **long format** for efficient analysis using Pandas.
 
-4. **Visualization & Results**  
-   - Line plots to show long-term trends.  
-   - Highlighted unemployment changes during the COVID-19 period.  
-   - Plots saved to the `results/` folder.  
+---
 
-## Key Insights
-- Lebanon’s unemployment rate shows variability over the last three decades.  
-- Significant increase observed during 2020–2021, reflecting the COVID-19 economic impact.  
-- Visualizations provide clear insights into trends, useful for economic or social policy analysis.  
+## 🛠️ Tools & Technologies
+- 🐍 **Python 3**
+- 📊 **Pandas**
+- 🔢 **NumPy**
+- 📈 **Matplotlib**
+- 🎨 **Seaborn**
+- 📓 **Jupyter Notebook**
+
+---
+
+## 🔍 Project Workflow
+### 1️⃣ Data Loading & Inspection
+- Loaded dataset using Pandas
+- Inspected structure, data types, and missing values
+
+### 2️⃣ Data Preprocessing
+- Reshaped dataset using `melt()`
+- Converted year columns to numeric format
+
+### 3️⃣ Exploratory Data Analysis (EDA)
+- Analyzed unemployment trends for Lebanon
+- Compared pre-COVID and post-COVID unemployment levels
+
+### 4️⃣ Visualization
+- Line charts for long-term trends
+- Focused COVID-19 impact visualization (2019–2021)
+- Saved plots for reporting and presentation
+
+---
+
+## 📊 Key Insights
+- 📉 Lebanon’s unemployment rate fluctuated significantly over three decades  
+- 🦠 A sharp increase was observed during **2020–2021**, reflecting COVID-19’s economic impact  
+- 📈 Visual analysis helps identify policy-relevant trends and patterns  
+
+---
 
 ## 📁 Folder Structure
 
@@ -59,3 +80,33 @@ It analyzes global unemployment rates from 1991 to 2021 using Python, Pandas, an
 ├── README.md
 └── requirements.txt
 ```
+
+## ▶️ How to Run the Project
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/YehyaTrad/CodeAlpha_Unemployment_Analysis.git
+
+### 2️⃣ Navigate to Project Directory
+```bash
+cd CodeAlpha_Unemployment_Analysis
+### 3️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+### 4️⃣ Run the Notebook
+```bash
+jupyter notebook notebooks/unemployment_analysis.ipynb
+
+## ✅ 3. Author Section 
+
+```markdown
+## 👤 Author
+
+**Yehya Trad**  
+🎓 Data Science Intern — CodeAlpha
+
+## 📜 License
+
+This project is created for **educational purposes** as part of the CodeAlpha Internship Program.
+
+
