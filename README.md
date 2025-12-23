@@ -59,10 +59,3 @@ It analyzes global unemployment rates from 1991 to 2021 using Python, Pandas, an
 ├── README.md
 └── requirements.txt
 ```
-
-## 📁 Repository Structure
-```plaintext
-📁 CodeAlpha-Marketing-Campaign-Design-EnerPrime
- ├── 📄 EnerPrime_Marketing_Campaign_Presentation.pptx
- ├── 📊 Chart_Data  
- └── 📄 README.md
