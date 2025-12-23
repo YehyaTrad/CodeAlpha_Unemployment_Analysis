@@ -41,10 +41,10 @@ It analyzes global unemployment rates from 1991 to 2021 using Python, Pandas, an
 - Significant increase observed during 2020–2021, reflecting the COVID-19 economic impact.  
 - Visualizations provide clear insights into trends, useful for economic or social policy analysis.  
 
-## Folder Structure
+## 📁 Folder Structure
 
 ```
-CodeAlpha_Unemployment_Analysis/
+📁 CodeAlpha_Unemployment_Analysis/
 │
 ├── data/
 │   └── unemployment.csv
