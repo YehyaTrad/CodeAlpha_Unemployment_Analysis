@@ -84,7 +84,7 @@ It focuses on analyzing global unemployment rates from **1991 to 2021**, with a 
 ## ▶️ How to Run the Project
 
 ### 1️⃣ Clone the Repository
-```bash
+```
 git clone https://github.com/YehyaTrad/CodeAlpha_Unemployment_Analysis.git
 ```
  ###2️⃣ Navigate to Project Directory
@@ -99,9 +99,7 @@ pip install -r requirements.txt
 ```
 jupyter notebook notebooks/unemployment_analysis.ipynb
 ```
-## ✅ 3. Author Section 
 
-```
 ## 👤 Author
 
 **Yehya Trad**  
