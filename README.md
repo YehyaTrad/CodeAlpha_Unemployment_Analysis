@@ -42,10 +42,9 @@ It analyzes global unemployment rates from 1991 to 2021 using Python, Pandas, an
 - Visualizations provide clear insights into trends, useful for economic or social policy analysis.  
 
 ## Folder Structure
-CodeAlpha_Unemployment_Analysis/
+📁 CodeAlpha_Unemployment_Analysis/
 │
-├── data/
-│ └── unemployment.csv
+├── data|__ unemployment.csv
 │
 ├── notebooks/
 │ └── unemployment_analysis.ipynb
@@ -56,3 +55,10 @@ CodeAlpha_Unemployment_Analysis/
 │
 ├── README.md
 └── requirements.txt
+
+## 📁 Repository Structure
+```plaintext
+📁 CodeAlpha-Marketing-Campaign-Design-EnerPrime
+ ├── 📄 EnerPrime_Marketing_Campaign_Presentation.pptx
+ ├── 📊 Chart_Data  
+ └── 📄 README.md
