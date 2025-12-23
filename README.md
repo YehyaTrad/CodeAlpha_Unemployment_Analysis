@@ -87,26 +87,27 @@ It focuses on analyzing global unemployment rates from **1991 to 2021**, with a 
 ```bash
 git clone https://github.com/YehyaTrad/CodeAlpha_Unemployment_Analysis.git
 
- 2️⃣ Navigate to Project Directory
-
+ ###2️⃣ Navigate to Project Directory
+```
 cd CodeAlpha_Unemployment_Analysis
+
 ### 3️⃣ Install Dependencies
-```bash
+```
 pip install -r requirements.txt
 ### 4️⃣ Run the Notebook
-```bash
+```
 jupyter notebook notebooks/unemployment_analysis.ipynb
 
 ## ✅ 3. Author Section 
 
-```markdown
+```
 ## 👤 Author
 
 **Yehya Trad**  
 🎓 Data Science Intern — CodeAlpha
 
 ## 📜 License
-
+```
 This project is created for **educational purposes** as part of the CodeAlpha Internship Program.
 
 
