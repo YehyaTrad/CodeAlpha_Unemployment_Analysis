@@ -106,8 +106,5 @@ jupyter notebook notebooks/unemployment_analysis.ipynb
 🎓 Data Science Intern — CodeAlpha
 ```
 ## 📜 License
-```
 This project is created for **educational purposes** as part of the CodeAlpha Internship Program.
 
-
-```
